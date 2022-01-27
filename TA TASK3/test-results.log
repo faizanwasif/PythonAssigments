@@ -1,0 +1,1132 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+a03.py:28: in <module>
+    print(chocolatePrice(x,y))
+E   NameError: name 'x' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'x' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+a03.py:28: in <module>
+    print(chocolatePrice(x,y))
+E   NameError: name 'x' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'x' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+ImportError while importing test module '/home/muhammad/Desktop/My Files/TA TASK3/test_student.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+E   ImportError: cannot import name 'calculateProfit' from 'a03' (/home/muhammad/Desktop/My Files/TA TASK3/a03.py)
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.06s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+ImportError while importing test module '/home/muhammad/Desktop/My Files/TA TASK3/test_student.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+E   ImportError: cannot import name 'calculateProfit' from 'a03' (/home/muhammad/Desktop/My Files/TA TASK3/a03.py)
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.08s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+E     File "/home/muhammad/Desktop/My Files/TA TASK3/a03.py", line 20
+E       return "Not Possible”
+E                           ^
+E   SyntaxError: EOL while scanning string literal
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.25s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+E     File "/home/muhammad/Desktop/My Files/TA TASK3/a03.py", line 21
+E       return "Not Possible”
+E                           ^
+E   SyntaxError: EOL while scanning string literal
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.13s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.09s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:17: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.08s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert (2, 0) == 'Not Possible'
+E        +  where (2, 0) = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert (0, 4) == 'Not Possible'
+E        +  where (0, 4) = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert (0, 0) == 'Not Possible'
+E        +  where (0, 0) = calculateProfit(0, 0)
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+    
+    
+        if type(ali_budget) or type(bashir_budget) == float or int:
+    
+>           return round(ali_budget) ,round(bashir_budget)
+E           TypeError: type str doesn't define __round__ method
+
+a03.py:18: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: type st...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: type ...
+========================= 6 failed, 4 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFFFFF....                                               [100%]
+
+=================================== FAILURES ===================================
+______________________ test_calculateProfit_zero_check_1 _______________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:7: AssertionError
+______________________ test_calculateProfit_zero_check_2 _______________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:10: AssertionError
+_____________________ test_calculateProfit_zero_check_all ______________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:14: AssertionError
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:18: AssertionError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:21: AssertionError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+E       AssertionError: assert 'not' == 'Not Possible'
+E         - Not Possible
+E         + not
+
+test_student.py:24: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: a...
+FAILED test_student.py::test_calculateProfit_zero_check_all - AssertionError:...
+FAILED test_student.py::test_calculateProfit_str_check_1 - AssertionError: as...
+FAILED test_student.py::test_calculateProfit_str_check_2 - AssertionError: as...
+FAILED test_student.py::test_calculateProfit_str_check_all - AssertionError: ...
+========================= 6 failed, 4 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.03s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ...FFF....                                               [100%]
+
+=================================== FAILURES ===================================
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+>       if (ali_budget) <= 0 or (bashir_budget) <= 0:
+E       TypeError: '<=' not supported between instances of 'str' and 'int'
+
+a03.py:14: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+>       if (ali_budget) <= 0 or (bashir_budget) <= 0:
+E       TypeError: '<=' not supported between instances of 'str' and 'int'
+
+a03.py:14: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+>       if (ali_budget) <= 0 or (bashir_budget) <= 0:
+E       TypeError: '<=' not supported between instances of 'str' and 'int'
+
+a03.py:14: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: '<=' no...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: '<=' no...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: '<=' ...
+========================= 3 failed, 7 passed in 0.11s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ...FFF....                                               [100%]
+
+=================================== FAILURES ===================================
+_______________________ test_calculateProfit_str_check_1 _______________________
+
+    def test_calculateProfit_str_check_1():
+>       assert calculateProfit("4", 1) == "Not Possible"
+
+test_student.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '4', bashir_budget = 1
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+        if (ali_budget) == 0 or (bashir_budget) == 0:
+    
+            return "Not Possible"
+    
+>       if (ali_budget) < 0 or (bashir_budget) < 0:
+E       TypeError: '<' not supported between instances of 'str' and 'int'
+
+a03.py:18: TypeError
+_______________________ test_calculateProfit_str_check_2 _______________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+        if (ali_budget) == 0 or (bashir_budget) == 0:
+    
+            return "Not Possible"
+    
+>       if (ali_budget) < 0 or (bashir_budget) < 0:
+E       TypeError: '<' not supported between instances of 'str' and 'int'
+
+a03.py:18: TypeError
+______________________ test_calculateProfit_str_check_all ______________________
+
+    def test_calculateProfit_str_check_all():
+>       assert calculateProfit("2", "3") == "Not Possible"
+
+test_student.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = '2', bashir_budget = '3'
+
+    def calculateProfit(ali_budget,bashir_budget): ### YOUR CODE FOR calculateProfit() FUNCTION GOES HERE ###
+        if (ali_budget) == 0 or (bashir_budget) == 0:
+    
+            return "Not Possible"
+    
+>       if (ali_budget) < 0 or (bashir_budget) < 0:
+E       TypeError: '<' not supported between instances of 'str' and 'int'
+
+a03.py:18: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_calculateProfit_str_check_1 - TypeError: '<' not...
+FAILED test_student.py::test_calculateProfit_str_check_2 - TypeError: '<' not...
+FAILED test_student.py::test_calculateProfit_str_check_all - TypeError: '<' n...
+========================= 3 failed, 7 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.09s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.02s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.07s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+E     File "/home/muhammad/Desktop/My Files/TA TASK3/a03.py", line 49
+E       else:
+E       ^
+E   SyntaxError: invalid syntax
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.20s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.03s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Desktop/My Files/TA TASK3
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                               [100%]
+
+============================== 10 passed in 0.04s ==============================

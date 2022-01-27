@@ -1,0 +1,508 @@
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFF.F.FFFF                                                                                                                                                                     [100%]
+
+============================================================================================== FAILURES ==============================================================================================
+_________________________________________________________________________________ test_calculateProfit_zero_check_1 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+
+test_student.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 2, bashir_budget = 0
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+_________________________________________________________________________________ test_calculateProfit_zero_check_2 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+
+test_student.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 0, bashir_budget = 4
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+________________________________________________________________________________ test_calculateProfit_zero_check_all _________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+
+test_student.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 0, bashir_budget = 0
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+__________________________________________________________________________________ test_calculateProfit_str_check_2 __________________________________________________________________________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+_______________________________________________________________________________________ test_chocolatePrice_1 ________________________________________________________________________________________
+
+    def test_chocolatePrice_1():
+>       assert chocolatePrice(55, 15) == 5
+
+test_student.py:31: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 55, bashir_budget = 15
+
+    def chocolatePrice(ali_budget, bashir_budget):
+    
+        while bashir_budget:
+>           ali_budget, bashir_budget = bashir_budget, ali_budget%b
+E           NameError: name 'b' is not defined
+
+a03.py:5: NameError
+_______________________________________________________________________________________ test_chocolatePrice_2 ________________________________________________________________________________________
+
+    def test_chocolatePrice_2():
+>       assert chocolatePrice(99, 18) == 9
+
+test_student.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 99, bashir_budget = 18
+
+    def chocolatePrice(ali_budget, bashir_budget):
+    
+        while bashir_budget:
+>           ali_budget, bashir_budget = bashir_budget, ali_budget%b
+E           NameError: name 'b' is not defined
+
+a03.py:5: NameError
+_______________________________________________________________________________________ test_chocolatePrice_3 ________________________________________________________________________________________
+
+    def test_chocolatePrice_3():
+>       assert chocolatePrice(30, 12) == 6
+
+test_student.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 30, bashir_budget = 12
+
+    def chocolatePrice(ali_budget, bashir_budget):
+    
+        while bashir_budget:
+>           ali_budget, bashir_budget = bashir_budget, ali_budget%b
+E           NameError: name 'b' is not defined
+
+a03.py:5: NameError
+_______________________________________________________________________________________ test_chocolatePrice_4 ________________________________________________________________________________________
+
+    def test_chocolatePrice_4():
+>       assert chocolatePrice(50, 10) == 10
+
+test_student.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 50, bashir_budget = 10
+
+    def chocolatePrice(ali_budget, bashir_budget):
+    
+        while bashir_budget:
+>           ali_budget, bashir_budget = bashir_budget, ali_budget%b
+E           NameError: name 'b' is not defined
+
+a03.py:5: NameError
+====================================================================================== short test summary info =======================================================================================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_zero_check_2 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_zero_check_all - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_str_check_2 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_chocolatePrice_1 - NameError: name 'b' is not defined
+FAILED test_student.py::test_chocolatePrice_2 - NameError: name 'b' is not defined
+FAILED test_student.py::test_chocolatePrice_3 - NameError: name 'b' is not defined
+FAILED test_student.py::test_chocolatePrice_4 - NameError: name 'b' is not defined
+==================================================================================== 8 failed, 2 passed in 0.07s =====================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFF.F.....                                                                                                                                                                     [100%]
+
+============================================================================================== FAILURES ==============================================================================================
+_________________________________________________________________________________ test_calculateProfit_zero_check_1 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+
+test_student.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 2, bashir_budget = 0
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+_________________________________________________________________________________ test_calculateProfit_zero_check_2 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+
+test_student.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 0, bashir_budget = 4
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+________________________________________________________________________________ test_calculateProfit_zero_check_all _________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+
+test_student.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 0, bashir_budget = 0
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+__________________________________________________________________________________ test_calculateProfit_str_check_2 __________________________________________________________________________________
+
+    def test_calculateProfit_str_check_2():
+>       assert calculateProfit(1, "2") == "Not Possible"
+
+test_student.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 1, bashir_budget = '2'
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashirBudget = round(bashirBudget)
+    
+>       if type(ali_budget) == int and type(bashirBudget) == int:
+E       UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+
+a03.py:21: UnboundLocalError
+====================================================================================== short test summary info =======================================================================================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_zero_check_2 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_zero_check_all - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+FAILED test_student.py::test_calculateProfit_str_check_2 - UnboundLocalError: local variable 'bashirBudget' referenced before assignment
+==================================================================================== 4 failed, 6 passed in 0.05s =====================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py FFF.......                                                                                                                                                                     [100%]
+
+============================================================================================== FAILURES ==============================================================================================
+_________________________________________________________________________________ test_calculateProfit_zero_check_1 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_1():
+>       assert calculateProfit(2, 0) == "Not Possible"
+E       AssertionError: assert 3.0 == 'Not Possible'
+E        +  where 3.0 = calculateProfit(2, 0)
+
+test_student.py:7: AssertionError
+_________________________________________________________________________________ test_calculateProfit_zero_check_2 __________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_2():
+>       assert calculateProfit(0, 4) == "Not Possible"
+E       AssertionError: assert 6.0 == 'Not Possible'
+E        +  where 6.0 = calculateProfit(0, 4)
+
+test_student.py:10: AssertionError
+________________________________________________________________________________ test_calculateProfit_zero_check_all _________________________________________________________________________________
+
+    def test_calculateProfit_zero_check_all():
+>       assert calculateProfit(0, 0) == "Not Possible"
+
+test_student.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+ali_budget = 0, bashir_budget = 0
+
+    def calculateProfit(ali_budget, bashir_budget):
+    
+        if type(ali_budget) == float:
+            ali_budget = round(ali_budget)
+    
+        if type(ali_budget) == float:
+            bashir_budget = round(bashir_budget)
+    
+        if type(ali_budget) == int and type(bashir_budget) == int:
+    
+            price = chocolatePrice(ali_budget, bashir_budget)
+    
+>           aliChocolates = ali_budget/price
+E           ZeroDivisionError: division by zero
+
+a03.py:25: ZeroDivisionError
+====================================================================================== short test summary info =======================================================================================
+FAILED test_student.py::test_calculateProfit_zero_check_1 - AssertionError: assert 3.0 == 'Not Possible'
+FAILED test_student.py::test_calculateProfit_zero_check_2 - AssertionError: assert 6.0 == 'Not Possible'
+FAILED test_student.py::test_calculateProfit_zero_check_all - ZeroDivisionError: division by zero
+==================================================================================== 3 failed, 7 passed in 0.05s =====================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ......FFFF                                                                                                                                                                     [100%]
+
+============================================================================================== FAILURES ==============================================================================================
+_______________________________________________________________________________________ test_chocolatePrice_1 ________________________________________________________________________________________
+
+    def test_chocolatePrice_1():
+>       assert chocolatePrice(55, 15) == 5
+E       assert 55 == 5
+E        +  where 55 = chocolatePrice(55, 15)
+
+test_student.py:31: AssertionError
+_______________________________________________________________________________________ test_chocolatePrice_2 ________________________________________________________________________________________
+
+    def test_chocolatePrice_2():
+>       assert chocolatePrice(99, 18) == 9
+E       assert 99 == 9
+E        +  where 99 = chocolatePrice(99, 18)
+
+test_student.py:34: AssertionError
+_______________________________________________________________________________________ test_chocolatePrice_3 ________________________________________________________________________________________
+
+    def test_chocolatePrice_3():
+>       assert chocolatePrice(30, 12) == 6
+E       assert 30 == 6
+E        +  where 30 = chocolatePrice(30, 12)
+
+test_student.py:38: AssertionError
+_______________________________________________________________________________________ test_chocolatePrice_4 ________________________________________________________________________________________
+
+    def test_chocolatePrice_4():
+>       assert chocolatePrice(50, 10) == 10
+E       assert 50 == 10
+E        +  where 50 = chocolatePrice(50, 10)
+
+test_student.py:41: AssertionError
+====================================================================================== short test summary info =======================================================================================
+FAILED test_student.py::test_chocolatePrice_1 - assert 55 == 5
+FAILED test_student.py::test_chocolatePrice_2 - assert 99 == 9
+FAILED test_student.py::test_chocolatePrice_3 - assert 30 == 6
+FAILED test_student.py::test_chocolatePrice_4 - assert 50 == 10
+==================================================================================== 4 failed, 6 passed in 0.05s =====================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                                                                                                                                                     [100%]
+
+========================================================================================= 10 passed in 0.02s =========================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=============================================================================================== ERRORS ===============================================================================================
+__________________________________________________________________________________ ERROR collecting test_student.py __________________________________________________________________________________
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+a03.py:43: in <module>
+    print(chocolatePrice(2,0))
+a03.py:5: in chocolatePrice
+    ali_budget, bashir_budget = bashir_budget, ali_budget%bashir_budget
+E   ZeroDivisionError: integer division or modulo by zero
+====================================================================================== short test summary info =======================================================================================
+ERROR test_student.py - ZeroDivisionError: integer division or modulo by zero
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================================== 1 error in 0.07s ==========================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=============================================================================================== ERRORS ===============================================================================================
+__________________________________________________________________________________ ERROR collecting test_student.py __________________________________________________________________________________
+test_student.py:1: in <module>
+    from a03 import calculateProfit
+a03.py:43: in <module>
+    print(chocolatePrice(2,0))
+a03.py:5: in chocolatePrice
+    ali_budget, bashir_budget = bashir_budget, ali_budget%bashir_budget
+E   ZeroDivisionError: integer division or modulo by zero
+====================================================================================== short test summary info =======================================================================================
+ERROR test_student.py - ZeroDivisionError: integer division or modulo by zero
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+========================================================================================== 1 error in 0.06s ==========================================================================================
+======================================================================================== test session starts =========================================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                                                                                                                                                     [100%]
+
+========================================================================================= 10 passed in 0.02s =========================================================================================
+================================================================== test session starts ==================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                                                                                                        [100%]
+
+================================================================== 10 passed in 0.03s ===================================================================
+================================================================== test session starts ==================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+======================================================================== ERRORS =========================================================================
+___________________________________________________________ ERROR collecting test_student.py ____________________________________________________________
+ImportError while importing test module '/home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files/test_student.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+test_student.py:2: in <module>
+    from a03 import chocolatePrice
+E   ImportError: cannot import name 'chocolatePrice' from 'a03' (/home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files/a03.py)
+================================================================ short test summary info ================================================================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=================================================================== 1 error in 0.08s ====================================================================
+================================================================== test session starts ==================================================================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/soothscier/Documents/Autograder/assignment-3/Assignment-3-files
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 10 items
+
+test_student.py ..........                                                                                                                        [100%]
+
+================================================================== 10 passed in 0.03s ===================================================================

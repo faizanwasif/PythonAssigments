@@ -1,0 +1,3186 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:14: in <module>
+    text_count(directory , filename)
+E   NameError: name 'directory' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'directory' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:14: in <module>
+    text_count("directory" , "filename")
+a06.py:11: in text_count
+    file = open("name" , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'name'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:14: in <module>
+    text_count("directory" , "filename")
+a06.py:11: in text_count
+    file = open("name" , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'name'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:14: in <module>
+    text_count("directory" , "filename")
+a06.py:11: in text_count
+    file = open("", "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: ''
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.10s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:2: in <module>
+    from a06 import text_count
+E     File "/home/muhammad/Documents/task6/a06.py", line 11
+E       file = open(, "r")
+E                   ^
+E   SyntaxError: invalid syntax
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.24s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:17: in <module>
+    text_count("directory" , "filename")
+a06.py:14: in text_count
+    file = open( "name" , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'name'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:18: in <module>
+    text_count("directory" , "filename")
+a06.py:15: in text_count
+    file = open( "name" , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'name'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 400 == 443
+E        +  where 400 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 400 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.05s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 400 == 443
+E        +  where 400 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 400 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.06s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:15: in <module>
+    text_count("directory" , "filename")
+a06.py:12: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.10s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:18: in <module>
+    text_count("directory" , "filename")
+a06.py:15: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: ''
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 400 == 443
+E        +  where 400 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 400 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.05s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:18: in <module>
+    text_count("directory" , "filename")
+a06.py:15: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.08s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() takes 0 positional arguments but 2 were given
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 0 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 0 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:18: in <module>
+    text_count()
+a06.py:13: in text_count
+    name = os.path.join(directory, filename)
+E   NameError: name 'directory' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'directory' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() takes 0 positional arguments but 2 were given
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 0 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 0 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 0...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.05s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 400 == 443
+E        +  where 400 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 400 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.04s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+
+test_student.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+directory = '.', filename = 'essay.txt'
+
+    def text_count(directory , filename):
+    
+        name = os.path.join(directory, filename)
+    
+        fil = open( name , "r")
+    
+>       return len(fil)
+E       TypeError: object of type '_io.TextIOWrapper' has no len()
+
+a06.py:14: TypeError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: object of type '_io....
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:15: in <module>
+    text_count(directory , filename)
+E   NameError: name 'directory' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'directory' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+
+test_student.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+directory = '.', filename = 'essay.txt'
+
+    def text_count(directory , filename):
+    
+        name = os.path.join(directory, filename)
+    
+        file = open( name , "r")
+    
+>       return len(file)
+E       TypeError: object of type '_io.TextIOWrapper' has no len()
+
+a06.py:14: TypeError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: object of type '_io....
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.05s ===============================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                                                                                   [100%]
+
+================================================================== FAILURES ==================================================================
+____________________________________________________________ test_text_count_s_1 _____________________________________________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+
+test_student.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+directory = '.', filename = 'essay.txt'
+
+    def text_count(directory , filename):
+    
+        name = os.path.join(directory, filename)
+    
+        file = open( name , "r")
+    
+        for line in file:
+            for words in line:
+>               count += 1
+E               UnboundLocalError: local variable 'count' referenced before assignment
+
+a06.py:16: UnboundLocalError
+____________________________________________________________ test_text_count_s_3 _____________________________________________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+____________________________________________________________ test_text_count_s_5 _____________________________________________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+____________________________________________________________ test_copy_lines_s_2 _____________________________________________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+========================================================== short test summary info ===========================================================
+FAILED test_student.py::test_text_count_s_1 - UnboundLocalError: local variable 'count' referenced before assignment
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2 positional arguments but 3 were given
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2 positional arguments but 4 were given
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0 positional arguments but 3 were given
+============================================================= 4 failed in 0.12s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                                                                                   [100%]
+
+================================================================== FAILURES ==================================================================
+____________________________________________________________ test_text_count_s_1 _____________________________________________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 2632 == 443
+E        +  where 2632 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+____________________________________________________________ test_text_count_s_3 _____________________________________________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+____________________________________________________________ test_text_count_s_5 _____________________________________________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+____________________________________________________________ test_copy_lines_s_2 _____________________________________________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+========================================================== short test summary info ===========================================================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 2632 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2 positional arguments but 3 were given
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2 positional arguments but 4 were given
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0 positional arguments but 3 were given
+============================================================= 4 failed in 0.04s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:24: in <module>
+    text_count(directory , filename)
+E   NameError: name 'directory' is not defined
+========================================================== short test summary info ===========================================================
+ERROR test_student.py - NameError: name 'directory' is not defined
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.07s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:24: in <module>
+    text_count("directory" , "filename")
+a06.py:12: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+========================================================== short test summary info ===========================================================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.08s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:24: in <module>
+    text_count("directory" , "filename")
+a06.py:10: in text_count
+    name = os.path.join(directory, filenam)
+E   NameError: name 'filenam' is not defined
+========================================================== short test summary info ===========================================================
+ERROR test_student.py - NameError: name 'filenam' is not defined
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.09s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:24: in <module>
+    text_count("directory" , "filenam")
+a06.py:10: in text_count
+    name = os.path.join(directory, filenam)
+E   NameError: name 'filenam' is not defined
+========================================================== short test summary info ===========================================================
+ERROR test_student.py - NameError: name 'filenam' is not defined
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.07s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:24: in <module>
+    text_count("directory" , "filename")
+a06.py:12: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+========================================================== short test summary info ===========================================================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or directory: 'directory/filename'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.09s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                                                                                   [100%]
+
+================================================================== FAILURES ==================================================================
+____________________________________________________________ test_text_count_s_1 _____________________________________________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 2632 == 443
+E        +  where 2632 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+____________________________________________________________ test_text_count_s_3 _____________________________________________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+____________________________________________________________ test_text_count_s_5 _____________________________________________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+____________________________________________________________ test_copy_lines_s_2 _____________________________________________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+========================================================== short test summary info ===========================================================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 2632 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2 positional arguments but 3 were given
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2 positional arguments but 4 were given
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0 positional arguments but 3 were given
+============================================================= 4 failed in 0.07s ==============================================================
+============================================================ test session starts =============================================================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+=================================================================== ERRORS ===================================================================
+______________________________________________________ ERROR collecting test_student.py ______________________________________________________
+../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:2: in <module>
+    from a06 import text_count
+E     File "/home/muhammad/Documents/task6/a06.py", line 8
+E       def text_count(directory , filename , True):
+E                                             ^
+E   SyntaxError: invalid syntax
+========================================================== short test summary info ===========================================================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+============================================================== 1 error in 0.15s ==============================================================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:2: in <module>
+    from a06 import text_count
+E     File "/home/muhammad/Documents/task6/a06.py", line 8
+E       def text_count(directory , filename , True):
+E                                             ^
+E   SyntaxError: invalid syntax
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.17s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 2632 == 443
+E        +  where 2632 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 2632 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.04s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 31 == 443
+E        +  where 31 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 31 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.05s ===============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 886 == 443
+E        +  where 886 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 886 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 886 == 443
+E        +  where 886 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 886 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 1457 == 443
+E        +  where 1457 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 1457 ==...
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 1457 == 443
+E        +  where 1457 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 1457 ==...
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 1457 == 443
+E        +  where 1457 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 1457 ==...
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 _____________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 886 == 443
+E        +  where 886 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 886 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+============================== 4 failed in 0.04s ==============================
+============================= test session starts =============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                    [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 _____________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 _____________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 _____________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ===========================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes ...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes ...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes ...
+========================= 3 failed, 1 passed in 0.04s =========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:2: in <module>
+    from a06 import text_count
+E     File "/home/muhammad/Documents/task6/a06.py", line 22
+E       return(sum(su))
+E                     ^
+E   TabError: inconsistent use of tabs and spaces in indentation
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.13s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+../../anaconda3/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+../../anaconda3/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+<frozen importlib._bootstrap>:991: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:975: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:671: in _load_unlocked
+    ???
+../../anaconda3/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_student.py:2: in <module>
+    from a06 import text_count
+E     File "/home/muhammad/Documents/task6/a06.py", line 22
+E       return(sum(su))
+E                     ^
+E   IndentationError: unindent does not match any outer indentation level
+=========================== short test summary info ============================
+ERROR test_student.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.14s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 886 == 443
+E        +  where 886 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 886 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.04s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py FFFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       AssertionError: assert 886 == 443
+E        +  where 886 = text_count('.', 'essay.txt')
+
+test_student.py:12: AssertionError
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - AssertionError: assert 886 == 443
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+============================== 4 failed in 0.04s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py F.FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() missing 1 required positional argument: 'x'
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() missing...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 3...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py F.FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() missing 1 required positional argument: 'x'
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() missing...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 3...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:29: in <module>
+    text_count('directory' , 'filename')
+a06.py:18: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'task6/essay.txt'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:29: in <module>
+    text_count('directory' , 'filename')
+a06.py:18: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'task6/essay.txt'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.06s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:29: in <module>
+    text_count('directory' , 'filename')
+a06.py:18: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'task6/essay.txt'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.10s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py F.FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() missing 1 required positional argument: 'x'
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() missing...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 3...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.07s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:55: in <module>
+    text_count('directory' , 'filename' , 'x')
+E   TypeError: text_count() takes 2 positional arguments but 3 were given
+=========================== short test summary info ============================
+ERROR test_student.py - TypeError: text_count() takes 2 positional arguments ...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.08s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py F.FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_1 ______________________________
+
+    def test_text_count_s_1():
+>       assert text_count('.', 'essay.txt') == 443
+E       TypeError: text_count() missing 1 required positional argument: 'x'
+
+test_student.py:12: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_1 - TypeError: text_count() missing...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 3...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ..FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes from 2 to 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes f...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 2 failed, 2 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       AssertionError: assert 0 == 392
+E        +  where 0 = text_count('.', 'essay.txt', True)
+
+test_student.py:15: AssertionError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes from 2 to 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - AssertionError: assert 0 == 392
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes f...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 3 failed, 1 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ..FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes from 2 to 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes f...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 2 failed, 2 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:53: in <module>
+    text_count('directory' , 'filename' ,False)
+a06.py:26: in text_count
+    if x == True:
+E   NameError: name 'x' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'x' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ..FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes from 2 to 3 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes f...
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 2 failed, 2 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 1 failed, 3 passed in 0.13s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 1 failed, 3 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:75: in <module>
+    text_count('directory' , 'filename' ,False , True)
+a06.py:18: in text_count
+    file = open( name , "r")
+E   FileNotFoundError: [Errno 2] No such file or directory: 'directory/essay.txt'
+=========================== short test summary info ============================
+ERROR test_student.py - FileNotFoundError: [Errno 2] No such file or director...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 1 failed, 3 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+>       copy_lines('essay.txt', 'out.txt', 1)
+E       TypeError: copy_lines() takes 0 positional arguments but 3 were given
+
+test_student.py:21: TypeError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - TypeError: copy_lines() takes 0...
+========================= 1 failed, 3 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Taken (almos... over time.\n' == 'Write a titl...cific problem'
+E             - Write a title that summarizes the specific problem
+E             + Taken (almost) verbatim from: https://stackoverflow.com/help/how-to-ask (Read more on the link).
+E             + ttp://sqlfiddle.com/ or http://jsbin.com/) then do so - but also include the code in your question itself. Not everyone can access external sites, and the links may break over time.
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Taken (...
+========================= 1 failed, 3 passed in 0.08s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.07s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+E             + 
+E             + 
+E             + ...
+E             
+E             ...Full output truncated (3 lines hidden), use '-vv' to show
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.08s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_______________________ ERROR collecting test_student.py _______________________
+test_student.py:2: in <module>
+    from a06 import text_count
+a06.py:115: in <module>
+    copy_lines(essay.txt,out.txt, 2)
+E   NameError: name 'essay' is not defined
+=========================== short test summary info ============================
+ERROR test_student.py - NameError: name 'essay' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.16s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+E             + 
+E             + 
+E             + ...
+E             
+E             ...Full output truncated (5 lines hidden), use '-vv' to show
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py .FFF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_3 ______________________________
+
+    def test_text_count_s_3():
+>       assert text_count('.', 'essay.txt', True) == 392
+E       TypeError: text_count() takes 2 positional arguments but 3 were given
+
+test_student.py:15: TypeError
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       TypeError: text_count() takes 2 positional arguments but 4 were given
+
+test_student.py:18: TypeError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+E             + 
+E             + 
+E             + ...
+E             
+E             ...Full output truncated (12 lines hidden), use '-vv' to show
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_3 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_text_count_s_5 - TypeError: text_count() takes 2...
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 3 failed, 1 passed in 0.11s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+E             + 
+E             + 
+E             + ...
+E             
+E             ...Full output truncated (14 lines hidden), use '-vv' to show
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.12s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Write a title that summarizes the specific problem
+
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.06s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.05s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.10s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.03s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.07s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ..FF                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_text_count_s_5 ______________________________
+
+    def test_text_count_s_5():
+>       assert text_count('.', 'essay.txt', False, True) == 2632
+E       AssertionError: assert 2633 == 2632
+E        +  where 2633 = text_count('.', 'essay.txt', False, True)
+
+test_student.py:18: AssertionError
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...ific problem.' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem.
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_text_count_s_5 - AssertionError: assert 2633 == ...
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 2 failed, 2 passed in 0.10s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ....                                                     [100%]
+
+============================== 4 passed in 0.02s ===============================
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/muhammad/Documents/task6
+plugins: timeout-1.4.2
+timeout: 3.0s
+timeout method: signal
+timeout func_only: False
+collected 4 items
+
+test_student.py ...F                                                     [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_copy_lines_s_2 ______________________________
+
+    def test_copy_lines_s_2():
+        copy_lines('essay.txt', 'out.txt', 1)
+        with open('out.txt', 'r') as f:
+>           assert f.read() == """Write a title that summarizes the specific problem"""
+E           AssertionError: assert 'Write a titl...fic problem\n' == 'Write a titl...cific problem'
+E             Skipping 39 identical leading characters in diff, use -v to show
+E             - fic problem
+E             + fic problem
+E             ?            +
+
+test_student.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED test_student.py::test_copy_lines_s_2 - AssertionError: assert 'Write a...
+========================= 1 failed, 3 passed in 0.04s ==========================
